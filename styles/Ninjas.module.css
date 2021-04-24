@@ -1,0 +1,20 @@
+.list_wrapper {
+  width: 80%;
+}
+
+.list_item {
+  list-style: none;
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem 0;
+  color: #a5a5a5;
+  font-size: 1.2rem;
+  border-left: 4px solid white;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.list_item:hover {
+  color: #7000b1;
+  border-left: 4px solid #7000b1;
+}
